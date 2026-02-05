@@ -60,11 +60,11 @@ make build-macos
 make build-linux
 ```
 
-### **Adding Bible Translations**
+## **Adding Bible Translations**
 
-Place your Bible translation JSON files in the `data/` directory. The application automatically detects and loads them on startup.
+Place translation JSON files in the `data/` directory. They are loaded automatically at startup.
 
-**Supported format:**
+Example format:
 
 ```json
 {
@@ -82,37 +82,6 @@ Place your Bible translation JSON files in the `data/` directory. The applicatio
   }
 }
 ```
-
-## Usage Guide
-
-### **Controller Window**
-
-The command center for your presentation:
-
-- **Search Bar** - Type any Bible reference (e.g., "Psalm 23:1", "1 Corinthians 13:4")
-- **Navigation** - Previous/Next buttons for seamless verse flow
-- **Translation Selector** - Switch between available Bible versions instantly
-- **Go Live Button** - Open/close the presentation window
-- **Update Live** - Push current verse to the live display
-- **Settings** - Configure secondary monitor positioning
-
-### **Live Presentation Window**
-
-Optimized for maximum visual impact:
-
-- **Dark Background** - Reduces eye strain and enhances readability
-- **Auto-Scaling Text** - Dynamically adjusts to window size
-- **Centered Layout** - Professional presentation formatting
-- **Real-Time Updates** - Instant verse changes from controller
-
-### 🖥️ **Multi-Monitor Setup**
-
-1. Click **Settings** in the controller window
-2. Enter your secondary monitor coordinates:
-   - **X, Y Position** - Where the window should appear
-   - **Width, Height** - Display dimensions
-3. Click **Save** - Settings persist automatically
-4. Next **Go Live** will position perfectly on your projector!
 
 ## Architecture
 
