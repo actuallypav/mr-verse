@@ -33,13 +33,13 @@ Mr Verse is a lightweight live Bible verse presentation tool written in Go using
 - Persistent configuration (monitor position, windows size, etc.)
 - Application logging
 
-## Quick Start
+## Requirements
 
-### Prerequisites
+- Go 1.24 or newer
+- GCC or compatible C compiler (required by Fyne)
+- Windows, macOS, or Linux
 
-- **Go 1.24** or later ([Download](https://golang.org/dl/))
-- **GCC** or compatible C compiler (required for Fyne UI framework)
-- **Operating System**: Windows, macOS, or Linux
+## Getting Started
 
 ### Installation
 
