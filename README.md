@@ -1,13 +1,13 @@
 # Mr Verse - Bible Verse Presentation Software
 
-Mr Verse is a lightweight live Bible verse presentation tool written in Go using Fyne for the UI and SQLite for storage. It emphasises efficient performance on modest hardware and a codebase structured for future expansion. Built for churches and small ministries that need a simple, fast way to display scripture on a projector or secondary screen.
-
-![Status](https://img.shields.io/badge/status-early%20development-orange)
-
 [![Go Version](https://img.shields.io/badge/Go-1.24.0-blue.svg)](https://golang.org/doc/devel/release.html)
 [![Fyne UI](https://img.shields.io/badge/Fyne-v2.5.4-success)](https://fyne.io/)
 [![SQLite](https://img.shields.io/badge/SQLite-Database-lightgrey)](https://sqlite.org/)
 [![License](https://img.shields.io/badge/License-Open%20Source-green)](LICENSE)
+
+Mr Verse is a lightweight live Bible verse presentation tool written in Go using Fyne for the UI and SQLite for storage. It emphasises efficient performance on modest hardware and a codebase structured for future expansion. Built for churches and small ministries that need a simple, fast way to display scripture on a projector or secondary screen.
+
+![Status](https://img.shields.io/badge/status-early%20development-orange)
 
 ## Features
 
