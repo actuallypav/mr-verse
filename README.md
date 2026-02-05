@@ -7,7 +7,8 @@
 
 Mr Verse is a lightweight live Bible verse presentation tool written in Go using Fyne for the UI and SQLite for storage. It emphasises efficient performance on modest hardware and a codebase structured for future expansion. Built for churches and small ministries that need a simple, fast way to display scripture on a projector or secondary screen.
 
-![Status](https://img.shields.io/badge/status-early%20development-orange)
+> [!WARNING]
+> **Status:** Early development. Not production-ready.
 
 ## Features
 
