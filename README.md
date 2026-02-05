@@ -37,9 +37,29 @@ Mr Verse is a lightweight live Bible verse presentation tool written in Go using
 
 - Go 1.24 or newer
 - GCC or compatible C compiler (required by Fyne)
+- Make
 - Windows, macOS, or Linux
 
 ## Getting Started
+
+### Build from source
+
+```bash
+git clone https://github.com/mr-ministry/mr-verse.git
+cd mr-verse
+make build
+./mr-verse
+```
+
+### Cross-platform builds
+
+```bash
+make build-all
+make build-windows
+make build-macos
+make build-linux
+```
+
 
 ### Installation
 
