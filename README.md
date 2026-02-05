@@ -60,7 +60,7 @@ make build-macos
 make build-linux
 ```
 
-## **Adding Bible Translations**
+## Adding Bible Translations
 
 Place translation JSON files in the `data/` directory. They are loaded automatically at startup.
 
@@ -106,8 +106,6 @@ Example format:
 
 ## Development
 
-### **Available Commands**
-
 ```bash
 make build          # Build for current platform
 make run            # Run in development mode
@@ -117,23 +115,23 @@ make deps           # Update dependencies
 make build-all      # Cross-platform build
 ```
 
-### **Testing & Quality**
+### Testing & Quality
 
 - **Unit Tests** - Comprehensive test coverage for core functionality
 - **Thread Safety** - Concurrent operations tested and verified
 - **Memory Management** - Optimized resource usage patterns
 - **Error Handling** - Graceful degradation and user feedback
 
-## Bible Translations
+## Supported Translations
 
 Pre-configured support for popular translations:
 
-- **NIV** - New International Version
-- **NKJV** - New King James Version
-- **NLT** - New Living Translation
-- **RCPV** - Revised Common Prayer Version
+- NIV - New International Version
+- NKJV - New King James Version
+- NLT - New Living Translation
+- RCPV - Revised Common Prayer Version
 
- **Add More Translations**: Simply place JSON files in the `data/` directory!
+(Add more by dropping JSON files into `data/`)
 
 ## Contributing
 
@@ -145,7 +143,7 @@ We welcome contributions that help spread the Word!
 4. Test thoroughly
 5. Submit a pull request
 
-### **Commit Guidelines**
+Commit prefixes:
 
 - `feat:` - New features
 - `fix:` - Bug fixes
@@ -173,7 +171,7 @@ Mr Verse empowers you to share God's Word with clarity and beauty.
 
 ## License
 
-Open source with - check [LICENSE](./LICENSE) for details.
+Open source. See [LICENSE](./LICENSE).
 
 ---
 
