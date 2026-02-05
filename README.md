@@ -60,35 +60,6 @@ make build-macos
 make build-linux
 ```
 
-
-### Installation
-
-#### Option 1: Build from Source
-
-```bash
-# Clone the powerhouse
-git clone https://github.com/mr-ministry/mr-verse.git
-cd mr-verse
-
-# Build the application
-make build
-
-# Launch and inspire!
-./mr-verse
-```
-
-#### Option 2: Cross-Platform Builds
-
-```bash
-# Build for all platforms
-make build-all
-
-# Or target specific platforms
-make build-windows    # Windows executable
-make build-macos      # macOS binary
-make build-linux      # Linux binary
-```
-
 ### **Adding Bible Translations**
 
 Place your Bible translation JSON files in the `data/` directory. The application automatically detects and loads them on startup.
