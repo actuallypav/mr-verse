@@ -11,29 +11,26 @@ Mr Verse is a lightweight live Bible verse presentation tool written in Go using
 
 ## Features
 
-### **Core Functionality**
+### Core
 
-- **Dual-Screen Presentation** - Dedicated live presentation window optimized for projectors and secondary monitors
-- **Intuitive Controller** - Clean, easy-to-use control interface for seamless verse management
-- **Lightning-Fast Navigation** - Instant previous/next verse navigation with smart cross-chapter and cross-book transitions
-- **Smart Search** - Quick Bible reference lookup using natural format (e.g., "John 3:16", "Romans 8:28")
-- **Multi-Translation Support** - Switch between multiple Bible translations on the fly
-- **Multi-Monitor Configuration** - Flexible secondary monitor positioning and sizing
-- **Presentation-Optimized UI** - Large, readable text with dark backgrounds for optimal visibility
+- Dual-screen mode with separate controller and live presentation windows
+- Quick verse navigation (previous/next across chapters and books)
+- Search by reference (e.g. `John 3:16`, `Romans 8:28`)
+- Multiple Bible translations
+- Large, high-contrast text optimised for projection
 
-### **Bible Data Management**
+### Bible Data
 
-- **SQLite Database** - Efficient local storage with automatic JSON-to-database seeding
-- **Dynamic Translation Loading** - Automatic detection and loading of Bible translation files
-- **Smart Caching** - Optimized verse retrieval and navigation performance
-- **Contextual Navigation** - Intelligent verse sequencing across chapters and books
+- SQLite database with automatic seeding from JSON files
+- Automatic loading of available translations
+- Cached verse lookups for fast navigation
 
-### **Technical Excellence**
+### Technical
 
-- **Observer Pattern** - Real-time verse updates across all windows
-- **Thread-Safe Operations** - Concurrent-safe verse presentation management
-- **Comprehensive Logging** - Detailed application logs for troubleshooting
-- **Configuration Management** - Persistent settings for monitor setup and preferences
+- Observer pattern for live verse updates
+- Thread-safe state management
+- Persistent configuration (monitor position, windows size, etc.)
+- Application logging
 
 ## Quick Start
 
