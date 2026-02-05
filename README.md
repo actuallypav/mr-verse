@@ -21,27 +21,27 @@ Transform your ministry with this lightning-fast, cross-platform Bible verse dis
 
 ### **Core Functionality**
 
-- ** Dual-Screen Presentation** - Dedicated live presentation window optimized for projectors and secondary monitors
-- ** Intuitive Controller** - Clean, easy-to-use control interface for seamless verse management
-- ** Lightning-Fast Navigation** - Instant previous/next verse navigation with smart cross-chapter and cross-book transitions
-- ** Smart Search** - Quick Bible reference lookup using natural format (e.g., "John 3:16", "Romans 8:28")
-- ** Multi-Translation Support** - Switch between multiple Bible translations on the fly
-- ** Multi-Monitor Configuration** - Flexible secondary monitor positioning and sizing
-- ** Presentation-Optimized UI** - Large, readable text with dark backgrounds for optimal visibility
+- **Dual-Screen Presentation** - Dedicated live presentation window optimized for projectors and secondary monitors
+- **Intuitive Controller** - Clean, easy-to-use control interface for seamless verse management
+- **Lightning-Fast Navigation** - Instant previous/next verse navigation with smart cross-chapter and cross-book transitions
+- **Smart Search** - Quick Bible reference lookup using natural format (e.g., "John 3:16", "Romans 8:28")
+- **Multi-Translation Support** - Switch between multiple Bible translations on the fly
+- **Multi-Monitor Configuration** - Flexible secondary monitor positioning and sizing
+- **Presentation-Optimized UI** - Large, readable text with dark backgrounds for optimal visibility
 
 ### **Bible Data Management**
 
-- ** SQLite Database** - Efficient local storage with automatic JSON-to-database seeding
-- ** Dynamic Translation Loading** - Automatic detection and loading of Bible translation files
-- ** Smart Caching** - Optimized verse retrieval and navigation performance
-- **🔗 Contextual Navigation** - Intelligent verse sequencing across chapters and books
+- **SQLite Database** - Efficient local storage with automatic JSON-to-database seeding
+- **Dynamic Translation Loading** - Automatic detection and loading of Bible translation files
+- **Smart Caching** - Optimized verse retrieval and navigation performance
+- **Contextual Navigation** - Intelligent verse sequencing across chapters and books
 
 ### **Technical Excellence**
 
-- ** Observer Pattern** - Real-time verse updates across all windows
-- ** Thread-Safe Operations** - Concurrent-safe verse presentation management
-- ** Comprehensive Logging** - Detailed application logs for troubleshooting
-- ** Configuration Management** - Persistent settings for monitor setup and preferences
+- **Observer Pattern** - Real-time verse updates across all windows
+- **Thread-Safe Operations** - Concurrent-safe verse presentation management
+- **Comprehensive Logging** - Detailed application logs for troubleshooting
+- **Configuration Management** - Persistent settings for monitor setup and preferences
 
 ## Quick Start
 
@@ -108,21 +108,21 @@ Place your Bible translation JSON files in the `data/` directory. The applicatio
 
 The command center for your presentation:
 
-- ** Search Bar** - Type any Bible reference (e.g., "Psalm 23:1", "1 Corinthians 13:4")
-- ** Navigation** - Previous/Next buttons for seamless verse flow
-- ** Translation Selector** - Switch between available Bible versions instantly
-- ** Go Live Button** - Open/close the presentation window
-- ** Update Live** - Push current verse to the live display
-- ** Settings** - Configure secondary monitor positioning
+- **Search Bar** - Type any Bible reference (e.g., "Psalm 23:1", "1 Corinthians 13:4")
+- **Navigation** - Previous/Next buttons for seamless verse flow
+- **Translation Selector** - Switch between available Bible versions instantly
+- **Go Live Button** - Open/close the presentation window
+- **Update Live** - Push current verse to the live display
+- **Settings** - Configure secondary monitor positioning
 
-###  **Live Presentation Window**
+### **Live Presentation Window**
 
 Optimized for maximum visual impact:
 
-- ** Dark Background** - Reduces eye strain and enhances readability
-- ** Auto-Scaling Text** - Dynamically adjusts to window size
-- ** Centered Layout** - Professional presentation formatting
-- ** Real-Time Updates** - Instant verse changes from controller
+- **Dark Background** - Reduces eye strain and enhances readability
+- **Auto-Scaling Text** - Dynamically adjusts to window size
+- **Centered Layout** - Professional presentation formatting
+- **Real-Time Updates** - Instant verse changes from controller
 
 ### 🖥️ **Multi-Monitor Setup**
 
@@ -131,9 +131,9 @@ Optimized for maximum visual impact:
    - **X, Y Position** - Where the window should appear
    - **Width, Height** - Display dimensions
 3. Click **Save** - Settings persist automatically
-4. Next **Go Live** will position perfectly on your projector! 
+4. Next **Go Live** will position perfectly on your projector!
 
-##  Architecture
+## Architecture
 
 ```txt
  Project Structure
@@ -229,8 +229,8 @@ Open source with - check [LICENSE](./LICENSE) for details.
 
 <div align="center">
 
-** Built with Go • Powered by Fyne • Designed for Ministry **
+**Built with Go • Powered by Fyne • Designed for Ministry**
 
-_"Faith comes by hearing, and hearing by the word of God." - Romans 10:17_
+"Faith comes by hearing, and hearing by the word of God." - Romans 10:17_
 
 </div>
